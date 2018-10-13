@@ -26,8 +26,7 @@ public class StockFileApplication {
 	 * @param lines passed from returned List<String> lines from StockFileReader
 	 * @return List<HashMap<String, Double>> that has (headers : matched lines values)
 	 */
-	public static List<HashMap<String, Double>> populateStockFileData(List<String> headers, 
-																	  List<String> lines){
+	public static List<HashMap<String, Double>> populateStockFileData(List<String> headers, List<String> lines){
 		List<HashMap<String, Double>> dataResult = new ArrayList<>();
 		
 		for(String line : lines){	
