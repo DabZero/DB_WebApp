@@ -19,7 +19,7 @@ import com.example.springdemo.service.CustomerService;
 @RequestMapping("/customer")
 public class CustomerController {
 	
-	//inject DAO into this controller
+	//inject Service Interface into this controller
 	@Autowired
 	private CustomerService service;
 	/**
