@@ -32,7 +32,7 @@ public class CustomerController {
 	@RequestMapping("/list")
 	public String listCustomers(Model theModel) {
 		
-		//get Customers from DAO
+		//get Customers from DAO via service facade
 		List<Customer> customerList = service.getCustomers();
 		
 		//add customers to MVC model
